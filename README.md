@@ -37,3 +37,6 @@ You will also need to capture the reference image yourself beforehand.
 
    pip install -r requirements.txt
 
+3. run the script:
+
+   python attention.py
