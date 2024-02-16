@@ -4,6 +4,7 @@ This project utilizes computer vision to monitor and assess a person's face for 
 
 ## Features
 
+- **Real Time Monitoring**
 - **Face Size Estimation**: Calculates the size of the subject's face.
 - **Eye Distance Measurement**: Determines the distance between the eyes.
 - **Eyebrow Distance Measurement**: Measures the distance between the eyebrows.
@@ -20,10 +21,19 @@ This project utilizes computer vision to monitor and assess a person's face for 
 - NumPy
 - SQLite3
 
-## Installation
+## Note
+The threshold values might vary depending on the person, adjust accordingly.
+You will also need to capture the reference image yourself beforehand.
+
+## Installation and Usage
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/mugs99/face-attention-monitoring.git
    cd face-attention-monitoring
+
+2. Install the required dependencies:
+
+   pip install -r requirements.txt
+
