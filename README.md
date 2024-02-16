@@ -35,8 +35,10 @@ You will also need to capture the reference image yourself beforehand.
 
 2. Install the required dependencies:
 
+   ```bash
    pip install -r requirements.txt
 
 3. run the script:
 
+   ```bash
    python attention.py
